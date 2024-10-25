@@ -1,5 +1,9 @@
 package com.github.azrenium;
 
+import java.util.Dictionary;
+import java.util.Hashtable;
+import java.util.Scanner;
+
 public class Main {
     private static final Dictionary<String, String> dictionary = new Hashtable<>();
     private static final Scanner scan = new Scanner(System.in);
