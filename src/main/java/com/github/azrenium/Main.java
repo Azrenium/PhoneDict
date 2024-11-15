@@ -49,7 +49,7 @@ public class Main {
 
     private static void displayPhoneBook() {
         System.out.println("Phone Book:");
-        ((Hashtable<String, String>) dictionary).forEach((key, value) -> System.out.println(key + " " + value));
+        ((Hashtable<String, String>) dictionary).forEach((key, value) -> System.out.println(key + " : " + value));
     }
 
     private static void addNewEntry(){
